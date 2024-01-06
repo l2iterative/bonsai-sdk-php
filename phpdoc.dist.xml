@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor
+        configVersion="3"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="https://www.phpdoc.org"
+>
+    <version>0.19.1</version>
+
+    <title>Bonsai PHP SDK</title>
+
+    <paths>
+        <output>docs/</output>
+    </paths>
+
+    <parser>
+        <target>src/</target>
+        <visibility>public</visibility>
+    </parser>
+
+    <transformer>
+        <target>output</target>
+    </transformer>
+
+    <transformations>
+        <template name="clean"/>
+    </transformations>
+
+    <settings>
+        <setting key="phpdoc.echo_progress">true</setting>
+    </settings>
+
+</phpdocumentor>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="BonsaiSdk" xsi:noNamespaceSchemaLocation="phpcs.xsd">
+    <description>The Squiz coding standard.</description>
+
+    <!-- Include some specific sniffs -->
+    <rule ref="Squiz">
+        <exclude name="Squiz.Files.FileExtension" />
+        <exclude name="Squiz.NamingConventions.ValidVariableName" />
+        <exclude name="Squiz.NamingConventions.ValidFunctionName" />
+    </rule>
+</ruleset>

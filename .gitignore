@@ -1,0 +1,7 @@
+/vendor
+/tools
+.phive
+composer.lock
+package.xml
+.idea
+.phpunit.result.cache

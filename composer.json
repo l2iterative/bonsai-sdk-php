@@ -1,0 +1,31 @@
+{
+  "name": "l2iterative/bonsai-sdk-php",
+  "description": "Bonsai SDK in PHP",
+  "require": {
+    "guzzlehttp/guzzle": "^7.8",
+    "php": ">=8.1"
+  },
+  "authors": [
+    {
+      "name": "Weikeng Chen",
+      "email": "weikeng.chen@l2iterative.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "L2Iterative\\BonsaiSDK\\": "src/bonsai-sdk"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "L2Iterative\\BonsaiSDK\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpdocumentor/phpdocumentor": "^2.9",
+    "phpunit/phpunit": "^8.5",
+    "donatj/mock-webserver": "^2.7",
+    "squizlabs/php_codesniffer": "*",
+    "ramsey/uuid": "^4.7"
+  }
+}
