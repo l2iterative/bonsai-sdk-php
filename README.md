@@ -10,7 +10,7 @@ through, for example, [Metamask's Ethereum provider API](https://docs.metamask.i
 
 ## How would the backend look like?
 
-Therefore, backends often fall into the following six classes:
+For the aforementioned reasons, backends often fall into the following six classes:
 - Pure:
   * A pure Typescript implementation, probably with the use of WebAssembly, often implemented through Rust (see [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)) 
   * A pure PHP implementation  
