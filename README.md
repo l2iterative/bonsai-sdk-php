@@ -11,11 +11,11 @@ through, for example, [Metamask's Ethereum provider API](https://docs.metamask.i
 ## How would the backend look like?
 
 For the aforementioned reasons, backends often fall into the following six classes:
-- Pure:
+- **Pure:**
   * A pure Typescript implementation, probably with the use of WebAssembly, often implemented through Rust (see [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)) 
   * A pure PHP implementation  
   * A pure Python implementation, such as [Django](https://www.djangoproject.com/) and [Flask](https://github.com/pallets/flask)
-- With  [foreign function interface (FFI)](https://en.wikipedia.org/wiki/Foreign_function_interface):
+- **With  [foreign function interface (FFI)](https://en.wikipedia.org/wiki/Foreign_function_interface):**
   * A Typescript implementation with FFI to high-performance code likely written in Rust, through [ffi-rs](https://github.com/zhangyuang/node-ffi-rs) or [koffi](https://github.com/Koromix/koffi)
   * A PHP implementation using FFI, probably through [the FFI extension](https://www.php.net/manual/en/book.ffi.php)
   * A Python implementation using FFI, probably through [CFFI](https://cffi.readthedocs.io/en/latest/)
@@ -49,7 +49,7 @@ exposed to the client. The backend may just consist of:
 
 ## How to use
 
-We would soon add a comprehensive documentation for the PHP API. But it is designed to resemble the Bonsai Rust API here:
+The documentation can be found in the [docs](docs) folder. It is designed to resemble the Bonsai Rust API here:
 
 <p align="center">
 https://github.com/risc0/risc0/blob/main/bonsai/sdk/src/alpha.rs
