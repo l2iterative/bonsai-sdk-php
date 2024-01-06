@@ -51,9 +51,9 @@ exposed to the client. The backend may just consist of:
 
 We would soon add a comprehensive documentation for the PHP API. But it is designed to resemble the Bonsai Rust API here:
 
-<center>
+<p align="center">
 https://github.com/risc0/risc0/blob/main/bonsai/sdk/src/alpha.rs
-</center>
+</p>
 
 The integration tests can be served as tutorials. It can be as simple as follows:
 ```php
