@@ -3,542 +3,522 @@ Search.appendIndex(
                 {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client",
             "name": "Client",
-            "summary": "",
+            "summary": "The\u0020Bonsai\u0020API\u0020PHP\u0020client.",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "The\u0020constructor\u0020of\u0020the\u0020Client",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aget_upload_url\u0028\u0029",
             "name": "get_upload_url",
-            "summary": "",
+            "summary": "Retrieve\u0020a\u0020URL\u0020from\u0020the\u0020Bonsai\u0020API\u0020server\u0020to\u0020upload\u0020files",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_get_upload_url"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aget_image_upload_url\u0028\u0029",
             "name": "get_image_upload_url",
-            "summary": "",
+            "summary": "Retrieve\u0020a\u0020URL\u0020from\u0020the\u0020Bonsai\u0020API\u0020server\u0020to\u0020upload\u0020the\u0020image\u0020if\u0020the\u0020image\u0020does\u0020not\u0020exist",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_get_image_upload_url"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aput_data\u0028\u0029",
             "name": "put_data",
-            "summary": "",
+            "summary": "A\u0020helper\u0020method\u0020to\u0020send\u0020PUT\u0020request",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_put_data"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aupload_img\u0028\u0029",
             "name": "upload_img",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020upload\u0020the\u0020image",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_upload_img"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aupload_img_file\u0028\u0029",
             "name": "upload_img_file",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020upload\u0020the\u0020image\u0020from\u0020a\u0020path",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_upload_img_file"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aupload_input\u0028\u0029",
             "name": "upload_input",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020upload\u0020the\u0020input\u0020data",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_upload_input"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aupload_input_file\u0028\u0029",
             "name": "upload_input_file",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020upload\u0020input\u0020data\u0020from\u0020file",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_upload_input_file"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aupload_receipt\u0028\u0029",
             "name": "upload_receipt",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020upload\u0020the\u0020receipt\u0020data",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_upload_receipt"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aupload_receipt_file\u0028\u0029",
             "name": "upload_receipt_file",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020upload\u0020receipt\u0020data\u0020from\u0020a\u0020file",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_upload_receipt_file"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Acreate_session\u0028\u0029",
             "name": "create_session",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020create\u0020a\u0020STARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_create_session"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Adownload\u0028\u0029",
             "name": "download",
-            "summary": "",
+            "summary": "A\u0020helper\u0020method\u0020to\u0020download\u0020data\u0020from\u0020a\u0020URL",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_download"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Acreate_snark\u0028\u0029",
             "name": "create_snark",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020create\u0020a\u0020STARK\u002Dto\u002DSNARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_create_snark"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aversion\u0028\u0029",
             "name": "version",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020obtain\u0020the\u0020risc0\u002Dzkvm\u0020version\u0020of\u0020the\u0020Bonsai\u0020API\u0020server",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_version"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003Aquotas\u0028\u0029",
             "name": "quotas",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020obtain\u0020the\u0020current\u0020quota\u0020usage",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#method_quotas"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003A\u0024url",
             "name": "url",
-            "summary": "",
+            "summary": "The\u0020Bonsai\u0020API\u0020server\u0027s\u0020URL,\u0020starting\u0020with\u0020\u0022http\u003A\/\/\u0022\u0020or\u0020\u0022https\u003A\/\/\u0022",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#property_url"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Client\u003A\u003A\u0024client",
             "name": "client",
-            "summary": "",
+            "summary": "The\u0020HTTP\u0020client\u0020from\u0020GuzzleHttp",
             "url": "classes/L2Iterative-BonsaiSDK-Client.html#property_client"
         },                {
-            "fqsen": "\\L2Iterative\\BonsaiSDK\\Error\\HttpErr",
-            "name": "HttpErr",
-            "summary": "",
-            "url": "classes/L2Iterative-BonsaiSDK-Error-HttpErr.html"
+            "fqsen": "\\L2Iterative\\BonsaiSDK\\Exception",
+            "name": "Exception",
+            "summary": "A\u0020wrapped\u0020exception\u0020class.",
+            "url": "classes/L2Iterative-BonsaiSDK-Exception.html"
         },                {
-            "fqsen": "\\L2Iterative\\BonsaiSDK\\Error\\HttpErr\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\L2Iterative\\BonsaiSDK\\Exception\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
-            "url": "classes/L2Iterative-BonsaiSDK-Error-HttpErr.html#method___construct"
+            "summary": "A\u0020constructor\u0020of\u0020the\u0020exception",
+            "url": "classes/L2Iterative-BonsaiSDK-Exception.html#method___construct"
         },                {
-            "fqsen": "\\L2Iterative\\BonsaiSDK\\Error\\HttpErr\u003A\u003A__toString\u0028\u0029",
+            "fqsen": "\\L2Iterative\\BonsaiSDK\\Exception\u003A\u003A__toString\u0028\u0029",
             "name": "__toString",
-            "summary": "",
-            "url": "classes/L2Iterative-BonsaiSDK-Error-HttpErr.html#method___toString"
+            "summary": "The\u0020conversion\u0020method\u0020to\u0020be\u0020a\u0020string.",
+            "url": "classes/L2Iterative-BonsaiSDK-Exception.html#method___toString"
         },                {
-            "fqsen": "\\L2Iterative\\BonsaiSDK\\Error\\HttpErr\u003A\u003A\u0024exception",
-            "name": "exception",
-            "summary": "",
-            "url": "classes/L2Iterative-BonsaiSDK-Error-HttpErr.html#property_exception"
-        },                {
-            "fqsen": "\\L2Iterative\\BonsaiSDK\\Error\\InternalServerException",
-            "name": "InternalServerException",
-            "summary": "",
-            "url": "classes/L2Iterative-BonsaiSDK-Error-InternalServerException.html"
-        },                {
-            "fqsen": "\\L2Iterative\\BonsaiSDK\\Error\\InternalServerException\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/L2Iterative-BonsaiSDK-Error-InternalServerException.html#method___construct"
-        },                {
-            "fqsen": "\\L2Iterative\\BonsaiSDK\\Error\\InternalServerException\u003A\u003A__toString\u0028\u0029",
-            "name": "__toString",
-            "summary": "",
-            "url": "classes/L2Iterative-BonsaiSDK-Error-InternalServerException.html#method___toString"
-        },                {
-            "fqsen": "\\L2Iterative\\BonsaiSDK\\Error\\InternalServerException\u003A\u003A\u0024error_msg",
+            "fqsen": "\\L2Iterative\\BonsaiSDK\\Exception\u003A\u003A\u0024error_msg",
             "name": "error_msg",
-            "summary": "",
-            "url": "classes/L2Iterative-BonsaiSDK-Error-InternalServerException.html#property_error_msg"
+            "summary": "The\u0020human\u002Dreadable\u0020error\u0020message",
+            "url": "classes/L2Iterative-BonsaiSDK-Exception.html#property_error_msg"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\ProofReq",
             "name": "ProofReq",
-            "summary": "",
+            "summary": "A\u0020class\u0020representing\u0020a\u0020request\u0020to\u0020generate\u0020a\u0020STARK\u0020proof",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-ProofReq.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\ProofReq\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020for\u0020a\u0020request\u0020to\u0020generate\u0020a\u0020STARK\u0020proof.",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-ProofReq.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\ProofReq\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-ProofReq.html#method_from_json"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\ProofReq\u003A\u003AjsonSerialize\u0028\u0029",
             "name": "jsonSerialize",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020indicate\u0020the\u0020serialization\u0020preference\u0020\u0028object\u0020as\u0020an\u0020array\u0029.",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-ProofReq.html#method_jsonSerialize"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\ProofReq\u003A\u003A\u0024img",
             "name": "img",
-            "summary": "",
+            "summary": "The\u0020image\u0020ID\u0020to\u0020be\u0020used\u0020to\u0020generate\u0020a\u0020proof\u0020for",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-ProofReq.html#property_img"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\ProofReq\u003A\u003A\u0024input",
             "name": "input",
-            "summary": "",
+            "summary": "The\u0020ID\u0020corresponding\u0020to\u0020the\u0020uploaded\u0020input\u0020data.",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-ProofReq.html#property_input"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\ProofReq\u003A\u003A\u0024assumptions",
             "name": "assumptions",
-            "summary": "",
+            "summary": "A\u0020list\u0020of\u0020assumptions\u0020\u0028receipt\u0020IDs\u0029\u0020that\u0020this\u0020STARK\u0020session\u0020would\u0020require.",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-ProofReq.html#property_assumptions"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\SnarkReq",
             "name": "SnarkReq",
-            "summary": "",
+            "summary": "A\u0020class\u0020representing\u0020a\u0020request\u0020to\u0020convert\u0020a\u0020STARK\u0020proof\u0020to\u0020a\u0020SNARK\u0020proof",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-SnarkReq.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\SnarkReq\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020for\u0020a\u0020request\u0020to\u0020convert\u0020a\u0020STARK\u0020proof\u0020to\u0020a\u0020SNARK\u0020proof",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-SnarkReq.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\SnarkReq\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-SnarkReq.html#method_from_json"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\SnarkReq\u003A\u003AjsonSerialize\u0028\u0029",
             "name": "jsonSerialize",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020indicate\u0020the\u0020serialization\u0020preference\u0020\u0028object\u0020as\u0020an\u0020array\u0029.",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-SnarkReq.html#method_jsonSerialize"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests\\SnarkReq\u003A\u003A\u0024session_id",
             "name": "session_id",
-            "summary": "",
+            "summary": "The\u0020STARK\u0020session\u0020to\u0020be\u0020created\u0020a\u0020SNARK\u0020for",
             "url": "classes/L2Iterative-BonsaiSDK-Requests-SnarkReq.html#property_session_id"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\CreateSessRes",
             "name": "CreateSessRes",
-            "summary": "",
+            "summary": "A\u0020response\u0020for\u0020creating\u0020a\u0020STARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\CreateSessRes\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020of\u0020a\u0020response\u0020for\u0020creating\u0020a\u0020STARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\CreateSessRes\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method_from_json"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\CreateSessRes\u003A\u003AjsonSerialize\u0028\u0029",
             "name": "jsonSerialize",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020indicate\u0020the\u0020serialization\u0020preference\u0020\u0028object\u0020as\u0020an\u0020array\u0029.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method_jsonSerialize"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\CreateSessRes\u003A\u003A\u0024uuid",
             "name": "uuid",
-            "summary": "",
+            "summary": "The\u0020ID\u0020of\u0020the\u0020STARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#property_uuid"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImageExistsOpt",
             "name": "ImageExistsOpt",
-            "summary": "",
+            "summary": "A\u0020class\u0020representing\u0020an\u0020enum\u0020on\u0020the\u0020image\u0020upload\u0020URL",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImageExistsOpt.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImageExistsOpt\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020of\u0020the\u0020image\u0020upload\u0020enum",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImageExistsOpt.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImageExistsOpt\u003A\u003AExists\u0028\u0029",
             "name": "Exists",
-            "summary": "",
+            "summary": "A\u0020shorthand\u0020constructor\u0020indicating\u0020that\u0020the\u0020image\u0020already\u0020exists\u0020on\u0020the\u0020server",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImageExistsOpt.html#method_Exists"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImageExistsOpt\u003A\u003ANew\u0028\u0029",
             "name": "New",
-            "summary": "",
+            "summary": "A\u0020shorthand\u0020constructor\u0020representing\u0020the\u0020image\u0020upload\u0020URL",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImageExistsOpt.html#method_New"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImageExistsOpt\u003A\u003A\u0024imgUploadRes",
             "name": "imgUploadRes",
-            "summary": "",
+            "summary": "The\u0020response\u0020used\u0020to\u0020upload\u0020the\u0020image",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImageExistsOpt.html#property_imgUploadRes"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImageExistsOpt\u003A\u003A\u0024exists",
             "name": "exists",
-            "summary": "",
+            "summary": "A\u0020boolean\u0020indicating\u0020whether\u0020the\u0020image\u0020already\u0020exists\u0020on\u0020the\u0020server",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImageExistsOpt.html#property_exists"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImgUploadRes",
             "name": "ImgUploadRes",
-            "summary": "",
+            "summary": "A\u0020response\u0020used\u0020to\u0020upload\u0020the\u0020image.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImgUploadRes.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImgUploadRes\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020for\u0020the\u0020image\u0020upload\u0020response",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImgUploadRes.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImgUploadRes\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImgUploadRes.html#method_from_json"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImgUploadRes\u003A\u003AjsonSerialize\u0028\u0029",
             "name": "jsonSerialize",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020indicate\u0020the\u0020serialization\u0020preference\u0020\u0028object\u0020as\u0020an\u0020array\u0029.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImgUploadRes.html#method_jsonSerialize"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\ImgUploadRes\u003A\u003A\u0024url",
             "name": "url",
-            "summary": "",
+            "summary": "The\u0020URL\u0020to\u0020send\u0020the\u0020PUT\u0020request",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-ImgUploadRes.html#property_url"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\Quotas",
             "name": "Quotas",
-            "summary": "",
+            "summary": "A\u0020response\u0020consisting\u0020of\u0020the\u0020user\u0027s\u0020quotas\u0020usage",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-Quotas.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\Quotas\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020for\u0020the\u0020quotas\u0020usage\u0020report",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-Quotas.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\Quotas\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-Quotas.html#method_from_json"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\Quotas\u003A\u003AjsonSerialize\u0028\u0029",
             "name": "jsonSerialize",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020indicate\u0020the\u0020serialization\u0020preference\u0020\u0028object\u0020as\u0020an\u0020array\u0029.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-Quotas.html#method_jsonSerialize"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\Quotas\u003A\u003A\u0024exec_cycle_limit",
             "name": "exec_cycle_limit",
-            "summary": "",
+            "summary": "Executor\u0020cycle\u0020limit,\u0020in\u0020millions\u0020of\u0020cycles",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-Quotas.html#property_exec_cycle_limit"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\Quotas\u003A\u003A\u0024max_parallelism",
             "name": "max_parallelism",
-            "summary": "",
+            "summary": "Max\u0020parallel\u0020proving\u0020units",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-Quotas.html#property_max_parallelism"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\Quotas\u003A\u003A\u0024concurrent_proofs",
             "name": "concurrent_proofs",
-            "summary": "",
+            "summary": "Max\u0020concurrent\u0020proofs",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-Quotas.html#property_concurrent_proofs"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\Quotas\u003A\u003A\u0024cycle_budget",
             "name": "cycle_budget",
-            "summary": "",
+            "summary": "Current\u0020cycle\u0020budget\u0020remaining",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-Quotas.html#property_cycle_budget"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\Quotas\u003A\u003A\u0024cycle_usage",
             "name": "cycle_usage",
-            "summary": "",
+            "summary": "Lifetime\u0020cycles\u0020used",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-Quotas.html#property_cycle_usage"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SessionStatusRes",
             "name": "SessionStatusRes",
-            "summary": "",
+            "summary": "A\u0020response\u0020for\u0020querying\u0020the\u0020status\u0020of\u0020a\u0020STARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SessionStatusRes\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020for\u0020the\u0020response\u0020for\u0020the\u0020status\u0020of\u0020a\u0020STARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SessionStatusRes\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html#method_from_json"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SessionStatusRes\u003A\u003AjsonSerialize\u0028\u0029",
             "name": "jsonSerialize",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020indicate\u0020the\u0020serialization\u0020preference\u0020\u0028object\u0020as\u0020an\u0020array\u0029.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html#method_jsonSerialize"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SessionStatusRes\u003A\u003A\u0024status",
             "name": "status",
-            "summary": "",
+            "summary": "A\u0020single\u0020word\u0020describing\u0020the\u0020current\u0020status",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html#property_status"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SessionStatusRes\u003A\u003A\u0024receipt_url",
             "name": "receipt_url",
-            "summary": "",
+            "summary": "URL\u0020to\u0020download\u0020the\u0020receipt",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html#property_receipt_url"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SessionStatusRes\u003A\u003A\u0024error_msg",
             "name": "error_msg",
-            "summary": "",
+            "summary": "The\u0020error\u0020message",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html#property_error_msg"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SessionStatusRes\u003A\u003A\u0024state",
             "name": "state",
-            "summary": "",
+            "summary": "Last\u0020reported\u0020active\u0020state\u0020that\u0020the\u0020execution\u0020was\u0020in",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html#property_state"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkReceipt",
             "name": "SnarkReceipt",
-            "summary": "",
+            "summary": "A\u0020SNARK\u0020receipt,\u0020which\u0020is\u0020a\u0020Groth16\u0020proof",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkReceipt.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkReceipt\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020of\u0020a\u0020SNARK\u0020receipt",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkReceipt.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkReceipt\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkReceipt.html#method_from_json"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkReceipt\u003A\u003AjsonSerialize\u0028\u0029",
             "name": "jsonSerialize",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020indicate\u0020the\u0020serialization\u0020preference\u0020\u0028object\u0020as\u0020an\u0020array\u0029.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkReceipt.html#method_jsonSerialize"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkReceipt\u003A\u003A\u0024snark_a",
             "name": "snark_a",
-            "summary": "",
+            "summary": "The\u0020group\u0020element\u0020A\u0020in\u0020a\u0020Groth16\u0020proof",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkReceipt.html#property_snark_a"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkReceipt\u003A\u003A\u0024snark_b",
             "name": "snark_b",
-            "summary": "",
+            "summary": "The\u0020group\u0020element\u0020B\u0020in\u0020a\u0020Groth16\u0020proof",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkReceipt.html#property_snark_b"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkReceipt\u003A\u003A\u0024snark_c",
             "name": "snark_c",
-            "summary": "",
+            "summary": "The\u0020group\u0020element\u0020C\u0020in\u0020a\u0020Groth16\u0020proof",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkReceipt.html#property_snark_c"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkReceipt\u003A\u003A\u0024snark_public",
             "name": "snark_public",
-            "summary": "",
+            "summary": "The\u0020public\u0020input",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkReceipt.html#property_snark_public"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkReceipt\u003A\u003A\u0024post_state_digest",
             "name": "post_state_digest",
-            "summary": "",
+            "summary": "The\u0020post\u002Dstate\u0020digest",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkReceipt.html#property_post_state_digest"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkReceipt\u003A\u003A\u0024journal",
             "name": "journal",
-            "summary": "",
+            "summary": "The\u0020journal\u0020of\u0020the\u0020zkvm",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkReceipt.html#property_journal"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkStatusRes",
             "name": "SnarkStatusRes",
-            "summary": "",
+            "summary": "A\u0020response\u0020for\u0020querying\u0020the\u0020status\u0020of\u0020a\u0020STARK\u002Dto\u002DSNARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkStatusRes.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkStatusRes\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020for\u0020the\u0020response\u0020for\u0020the\u0020status\u0020of\u0020a\u0020STARK\u002Dto\u002DSNARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkStatusRes.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkStatusRes\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkStatusRes.html#method_from_json"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkStatusRes\u003A\u003AjsonSerialize\u0028\u0029",
             "name": "jsonSerialize",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020indicate\u0020the\u0020serialization\u0020preference\u0020\u0028object\u0020as\u0020an\u0020array\u0029.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkStatusRes.html#method_jsonSerialize"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkStatusRes\u003A\u003A\u0024status",
             "name": "status",
-            "summary": "",
+            "summary": "A\u0020single\u0020word\u0020describing\u0020the\u0020current\u0020status",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkStatusRes.html#property_status"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkStatusRes\u003A\u003A\u0024output",
             "name": "output",
-            "summary": "",
+            "summary": "The\u0020Groth16\u0020proof",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkStatusRes.html#property_output"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\SnarkStatusRes\u003A\u003A\u0024error_msg",
             "name": "error_msg",
-            "summary": "",
+            "summary": "The\u0020error\u0020message",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-SnarkStatusRes.html#property_error_msg"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\UploadRes",
             "name": "UploadRes",
-            "summary": "",
+            "summary": "A\u0020response\u0020used\u0020to\u0020upload\u0020the\u0020input.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-UploadRes.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\UploadRes\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020for\u0020the\u0020input\u0020upload\u0020response",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-UploadRes.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\UploadRes\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-UploadRes.html#method_from_json"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\UploadRes\u003A\u003AjsonSerialize\u0028\u0029",
             "name": "jsonSerialize",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020indicate\u0020the\u0020serialization\u0020preference\u0020\u0028object\u0020as\u0020an\u0020array\u0029.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-UploadRes.html#method_jsonSerialize"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\UploadRes\u003A\u003A\u0024url",
             "name": "url",
-            "summary": "",
+            "summary": "The\u0020URL\u0020to\u0020send\u0020the\u0020PUT\u0020request",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-UploadRes.html#property_url"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\UploadRes\u003A\u003A\u0024uuid",
             "name": "uuid",
-            "summary": "",
+            "summary": "The\u0020ID\u0020of\u0020the\u0020input",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-UploadRes.html#property_uuid"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\VersionInfo",
             "name": "VersionInfo",
-            "summary": "",
+            "summary": "A\u0020response\u0020consisting\u0020of\u0020the\u0020supported\u0020risc0\u002Dzkvm\u0020versions",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-VersionInfo.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\VersionInfo\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020of\u0020the\u0020response\u0020on\u0020supported\u0020risc0\u002Dzkvm\u0020versions",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-VersionInfo.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\VersionInfo\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-VersionInfo.html#method_from_json"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\VersionInfo\u003A\u003AjsonSerialize\u0028\u0029",
             "name": "jsonSerialize",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020indicate\u0020the\u0020serialization\u0020preference\u0020\u0028object\u0020as\u0020an\u0020array\u0029.",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-VersionInfo.html#method_jsonSerialize"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Responses\\VersionInfo\u003A\u003A\u0024risc0_zkvm",
             "name": "risc0_zkvm",
-            "summary": "",
+            "summary": "A\u0020list\u0020of\u0020supported\u0020risc0\u002Dzkvm\u0020versions",
             "url": "classes/L2Iterative-BonsaiSDK-Responses-VersionInfo.html#property_risc0_zkvm"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\SessionId",
             "name": "SessionId",
-            "summary": "",
+            "summary": "A\u0020class\u0020representing\u0020a\u0020STARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-SessionId.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\SessionId\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020of\u0020the\u0020STARK\u0020session\u0020ID",
             "url": "classes/L2Iterative-BonsaiSDK-SessionId.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\SessionId\u003A\u003Astatus\u0028\u0029",
             "name": "status",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020query\u0020for\u0020the\u0020status\u0020of\u0020the\u0020STARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-SessionId.html#method_status"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\SessionId\u003A\u003Alogs\u0028\u0029",
             "name": "logs",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020retrieve\u0020the\u0020log\u0020information\u0020of\u0020a\u0020STARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-SessionId.html#method_logs"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\SessionId\u003A\u003A\u0024uuid",
             "name": "uuid",
-            "summary": "",
+            "summary": "The\u0020ID\u0020of\u0020the\u0020STARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-SessionId.html#property_uuid"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\SnarkId",
             "name": "SnarkId",
-            "summary": "",
+            "summary": "A\u0020class\u0020representing\u0020a\u0020STARK\u002Dto\u002DSNARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-SnarkId.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\SnarkId\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "A\u0020constructor\u0020of\u0020the\u0020STARK\u002Dto\u002DSNARK\u0020session\u0020ID",
             "url": "classes/L2Iterative-BonsaiSDK-SnarkId.html#method___construct"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\SnarkId\u003A\u003Astatus\u0028\u0029",
             "name": "status",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020query\u0020for\u0020the\u0020status\u0020of\u0020a\u0020STARK\u002Dto\u002DSNARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-SnarkId.html#method_status"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\SnarkId\u003A\u003A\u0024uuid",
             "name": "uuid",
-            "summary": "",
+            "summary": "The\u0020ID\u0020of\u0020the\u0020STARK\u002Dto\u002DSNARK\u0020session",
             "url": "classes/L2Iterative-BonsaiSDK-SnarkId.html#property_uuid"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Utils\\Deserialize",
@@ -548,7 +528,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Utils\\Deserialize\u003A\u003Afrom_json\u0028\u0029",
             "name": "from_json",
-            "summary": "",
+            "summary": "A\u0020method\u0020to\u0020deserialize\u0020an\u0020object\u0020in\u0020JSON.",
             "url": "classes/L2Iterative-BonsaiSDK-Utils-Deserialize.html#method_from_json"
         },                {
             "fqsen": "\\",
@@ -565,11 +545,6 @@ Search.appendIndex(
             "name": "L2Iterative",
             "summary": "",
             "url": "namespaces/l2iterative.html"
-        },                {
-            "fqsen": "\\L2Iterative\\BonsaiSDK\\Error",
-            "name": "Error",
-            "summary": "",
-            "url": "namespaces/l2iterative-bonsaisdk-error.html"
         },                {
             "fqsen": "\\L2Iterative\\BonsaiSDK\\Requests",
             "name": "Requests",

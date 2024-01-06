@@ -4,24 +4,22 @@ declare(strict_types=1);
 
 namespace L2Iterative\BonsaiSDK\Tests;
 
+require __DIR__ . '/Constants.php';
+
 use donatj\MockWebServer\MockWebServer;
 use donatj\MockWebServer\Response;
 use donatj\MockWebServer\ResponseByMethod;
 use L2Iterative\BonsaiSDK\Client;
-use L2Iterative\BonsaiSDK\Error\InternalServerException;
+use L2Iterative\BonsaiSDK\Exception;
 use L2Iterative\BonsaiSDK\Responses\ImgUploadRes;
 use PHPUnit\Framework\TestCase;
-
-const TEST_KEY     = 'TESTKEY';
-const TEST_ID      = '0x5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03';
-const TEST_VERSION = '0.1.0';
 
 final class ImageUploadTest extends TestCase
 {
 
 
     /**
-     * @throws InternalServerException
+     * @throws Exception
      */
     public function test_image_upload()
     {
@@ -56,7 +54,7 @@ final class ImageUploadTest extends TestCase
 
 
     /**
-     * @throws InternalServerException
+     * @throws Exception
      */
     public function test_image_upload_dup()
     {

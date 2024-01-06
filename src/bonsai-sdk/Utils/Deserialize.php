@@ -2,12 +2,17 @@
 
 namespace L2Iterative\BonsaiSDK\Utils;
 
-use JsonSerializable;
-
-interface Deserialize extends JsonSerializable
+interface Deserialize extends \JsonSerializable
 {
 
 
+    /**
+     * A method to deserialize an object in JSON.
+     *
+     * @param string $json_string The JSON string.
+     *
+     * @return self The object.
+     */
     public static function from_json(string $json_string): self;
 
 

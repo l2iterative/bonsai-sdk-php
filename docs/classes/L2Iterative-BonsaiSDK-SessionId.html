@@ -118,11 +118,12 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/SessionId.php"><a href="files/src-bonsai-sdk-sessionid.html"><abbr title="src/bonsai-sdk/SessionId.php">SessionId.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">9</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 
     </aside>
 
-        
+            <p class="phpdocumentor-summary">A class representing a STARK session</p>
+
 
 
 
@@ -153,6 +154,7 @@
     <span>
                         &nbsp;: string            </span>
 </dt>
+<dd>The ID of the STARK session</dd>
 
     </dl>
 
@@ -167,18 +169,21 @@
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
+<dd>A constructor of the STARK session ID</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/L2Iterative-BonsaiSDK-SessionId.html#method_logs">logs()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
+<dd>A method to retrieve the log information of a STARK session</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/L2Iterative-BonsaiSDK-SessionId.html#method_status">status()</a>
     <span>
                                 &nbsp;: <a href="classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html"><abbr title="\L2Iterative\BonsaiSDK\Responses\SessionStatusRes">SessionStatusRes</abbr></a>    </span>
 </dt>
+<dd>A method to query for the status of the STARK session</dd>
 
     </dl>
 
@@ -211,11 +216,12 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/SessionId.php"><a href="files/src-bonsai-sdk-sessionid.html"><abbr title="src/bonsai-sdk/SessionId.php">SessionId.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">The ID of the STARK session</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
@@ -249,11 +255,12 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/SessionId.php"><a href="files/src-bonsai-sdk-sessionid.html"><abbr title="src/bonsai-sdk/SessionId.php">SessionId.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">A constructor of the STARK session ID</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uuid</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
@@ -268,7 +275,9 @@
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>The ID of the STARK session.</p>
+</section>
+
             </dd>
             </dl>
 
@@ -290,11 +299,12 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/SessionId.php"><a href="files/src-bonsai-sdk-sessionid.html"><abbr title="src/bonsai-sdk/SessionId.php">SessionId.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">A method to retrieve the log information of a STARK session</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">logs</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/L2Iterative-BonsaiSDK-Client.html"><abbr title="\L2Iterative\BonsaiSDK\Client">Client</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$client</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
@@ -309,7 +319,9 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/L2Iterative-BonsaiSDK-Client.html"><abbr title="\L2Iterative\BonsaiSDK\Client">Client</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>The Bonsai API client.</p>
+</section>
+
             </dd>
             </dl>
 
@@ -324,15 +336,21 @@
                     <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><a href="classes/L2Iterative-BonsaiSDK-Error-InternalServerException.html"><abbr title="\L2Iterative\BonsaiSDK\Error\InternalServerException">InternalServerException</abbr></a></span>
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/L2Iterative-BonsaiSDK-Exception.html"><abbr title="\L2Iterative\BonsaiSDK\Exception">Exception</abbr></a></span>
                                                             
-                                             
+                                                 <section class="phpdocumentor-description"><p>Exception if GuzzleHttp throws an exception or when the status code is not 2xx.</p>
+</section>
+
                                     </dd>
                                             </dl>
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The logs.</p>
+</section>
+
             </section>
 
 </article>
@@ -350,11 +368,12 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/SessionId.php"><a href="files/src-bonsai-sdk-sessionid.html"><abbr title="src/bonsai-sdk/SessionId.php">SessionId.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">A method to query for the status of the STARK session</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">status</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/L2Iterative-BonsaiSDK-Client.html"><abbr title="\L2Iterative\BonsaiSDK\Client">Client</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$client</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html"><abbr title="\L2Iterative\BonsaiSDK\Responses\SessionStatusRes">SessionStatusRes</abbr></a></span></code>
@@ -369,7 +388,9 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/L2Iterative-BonsaiSDK-Client.html"><abbr title="\L2Iterative\BonsaiSDK\Client">Client</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>The Bonsai API client.</p>
+</section>
+
             </dd>
             </dl>
 
@@ -384,15 +405,21 @@
                     <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><a href="classes/L2Iterative-BonsaiSDK-Error-InternalServerException.html"><abbr title="\L2Iterative\BonsaiSDK\Error\InternalServerException">InternalServerException</abbr></a></span>
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/L2Iterative-BonsaiSDK-Exception.html"><abbr title="\L2Iterative\BonsaiSDK\Exception">Exception</abbr></a></span>
                                                             
-                                             
+                                                 <section class="phpdocumentor-description"><p>Exception if GuzzleHttp throws an exception or when the status code is not 2xx.</p>
+</section>
+
                                     </dd>
                                             </dl>
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type"><a href="classes/L2Iterative-BonsaiSDK-Responses-SessionStatusRes.html"><abbr title="\L2Iterative\BonsaiSDK\Responses\SessionStatusRes">SessionStatusRes</abbr></a></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>A response containing the status and the output of the STARK session.</p>
+</section>
+
             </section>
 
 </article>

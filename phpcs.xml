@@ -2,10 +2,15 @@
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="BonsaiSdk" xsi:noNamespaceSchemaLocation="phpcs.xsd">
     <description>The Squiz coding standard.</description>
 
+    <file>src</file>
+
     <!-- Include some specific sniffs -->
     <rule ref="Squiz">
         <exclude name="Squiz.Files.FileExtension" />
         <exclude name="Squiz.NamingConventions.ValidVariableName" />
         <exclude name="Squiz.NamingConventions.ValidFunctionName" />
+        <exclude name="Squiz.Commenting.FileComment" />
+        <exclude name="Squiz.ControlStructures.InlineIfDeclaration" />
+        <exclude name="Squiz.PHP.DisallowInlineIf" />
     </rule>
 </ruleset>

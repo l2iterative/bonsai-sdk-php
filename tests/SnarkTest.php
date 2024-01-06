@@ -7,23 +7,20 @@ use donatj\MockWebServer\MockWebServer;
 use donatj\MockWebServer\Response;
 use donatj\MockWebServer\ResponseByMethod;
 use L2Iterative\BonsaiSDK\Client;
-use L2Iterative\BonsaiSDK\Error\InternalServerException;
+use L2Iterative\BonsaiSDK\Exception;
 use L2Iterative\BonsaiSDK\Responses\CreateSessRes;
 use L2Iterative\BonsaiSDK\Responses\SessionStatusRes;
+use L2Iterative\BonsaiSDK\Responses\SnarkStatusRes;
 use L2Iterative\BonsaiSDK\SnarkId;
 use PHPUnit\Framework\TestCase;
 use Ramsey\Uuid\Uuid;
-
-const TEST_KEY     = 'TESTKEY';
-const TEST_ID      = '0x5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03';
-const TEST_VERSION = '0.1.0';
 
 final class SnarkTest extends TestCase
 {
 
 
     /**
-     * @throws InternalServerException
+     * @throws Exception
      */
     public function test_snark_create()
     {
@@ -54,7 +51,7 @@ final class SnarkTest extends TestCase
 
 
     /**
-     * @throws InternalServerException
+     * @throws Exception
      */
     public function test_snark_status()
     {
@@ -68,7 +65,7 @@ final class SnarkTest extends TestCase
             new ResponseByMethod(
                 [
                     ResponseByMethod::METHOD_GET => new Response(
-                        json_encode(new SessionStatusRes('RUNNING', null, null, null)),
+                        json_encode(new SnarkStatusRes('RUNNING', null, null)),
                         ['content-type' => 'application/json'],
                         200
                     ),

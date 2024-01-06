@@ -93,13 +93,15 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/l2iterative.html">L2Iterative</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/l2iterative-bonsaisdk.html">BonsaiSDK</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/l2iterative-bonsaisdk-responses.html">Responses</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    CreateSessRes
+    Exception
 
+        <span class="phpdocumentor-element__extends">
+        extends <abbr title="\Exception">Exception</abbr>
+    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -108,9 +110,6 @@
                             </ul>
         </div>
     
-            <span class="phpdocumentor-element__implements">
-            implements
-                            <a href="classes/L2Iterative-BonsaiSDK-Utils-Deserialize.html"><abbr title="\L2Iterative\BonsaiSDK\Utils\Deserialize">Deserialize</abbr></a>                    </span>
     
     </h2>
 
@@ -120,13 +119,13 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/Responses/CreateSessRes.php"><a href="files/src-bonsai-sdk-responses-createsessres.html"><abbr title="src/bonsai-sdk/Responses/CreateSessRes.php">CreateSessRes.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/Exception.php"><a href="files/src-bonsai-sdk-exception.html"><abbr title="src/bonsai-sdk/Exception.php">Exception.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">10</span>
+    <span class="phpdocumentor-element-found-in__line">8</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">A response for creating a STARK session</p>
+            <p class="phpdocumentor-summary">A wrapped exception class.</p>
 
 
 
@@ -135,19 +134,12 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/L2Iterative-BonsaiSDK-Exception.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
 
-    <h4 id="toc-interfaces">
-        Interfaces
-        <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/L2Iterative-BonsaiSDK-Utils-Deserialize.html"><abbr title="\L2Iterative\BonsaiSDK\Utils\Deserialize">Deserialize</abbr></a></dt>    </dl>
 
 
 
@@ -156,45 +148,38 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/L2Iterative-BonsaiSDK-Exception.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#property_uuid">$uuid</a>
+    <a href="classes/L2Iterative-BonsaiSDK-Exception.html#property_error_msg">$error_msg</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
-<dd>The ID of the STARK session</dd>
+<dd>The human-readable error message</dd>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/L2Iterative-BonsaiSDK-Exception.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method___construct">__construct()</a>
+    <a href="classes/L2Iterative-BonsaiSDK-Exception.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
-<dd>A constructor of a response for creating a STARK session</dd>
+<dd>A constructor of the exception</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method_from_json">from_json()</a>
+    <a href="classes/L2Iterative-BonsaiSDK-Exception.html#method___toString">__toString()</a>
     <span>
-                                &nbsp;: self    </span>
+                                &nbsp;: string    </span>
 </dt>
-<dd>A method to deserialize an object in JSON.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method_jsonSerialize">jsonSerialize()</a>
-    <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
-</dt>
-<dd>A method to indicate the serialization preference (object as an array).</dd>
+<dd>The conversion method to be a string.</dd>
 
     </dl>
 
@@ -207,7 +192,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/L2Iterative-BonsaiSDK-Exception.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -217,26 +202,26 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_uuid">
-        $uuid
-        <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#property_uuid" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_error_msg">
+        $error_msg
+        <a href="classes/L2Iterative-BonsaiSDK-Exception.html#property_error_msg" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/Responses/CreateSessRes.php"><a href="files/src-bonsai-sdk-responses-createsessres.html"><abbr title="src/bonsai-sdk/Responses/CreateSessRes.php">CreateSessRes.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/Exception.php"><a href="files/src-bonsai-sdk-exception.html"><abbr title="src/bonsai-sdk/Exception.php">Exception.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">The ID of the STARK session</p>
+        <p class="phpdocumentor-summary">The human-readable error message</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$uuid</span>
+    <span class="phpdocumentor-signature__name">$error_msg</span>
     </code>
 
     
@@ -249,7 +234,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/L2Iterative-BonsaiSDK-Exception.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -260,21 +245,21 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/L2Iterative-BonsaiSDK-Exception.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/Responses/CreateSessRes.php"><a href="files/src-bonsai-sdk-responses-createsessres.html"><abbr title="src/bonsai-sdk/Responses/CreateSessRes.php">CreateSessRes.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/Exception.php"><a href="files/src-bonsai-sdk-exception.html"><abbr title="src/bonsai-sdk/Exception.php">Exception.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">A constructor of a response for creating a STARK session</p>
+        <p class="phpdocumentor-summary">A constructor of the exception</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uuid</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$error_msg</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -282,11 +267,11 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$uuid</span>
+                <span class="phpdocumentor-signature__argument__name">$error_msg</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>The ID of the STARK session.</p>
+                    <section class="phpdocumentor-description"><p>The error message.</p>
 </section>
 
             </dd>
@@ -295,58 +280,6 @@
     
 
     
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                    -static                    "
->
-    <h4 class="phpdocumentor-element__name" id="method_from_json">
-        from_json()
-        <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method_from_json" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/Responses/CreateSessRes.php"><a href="files/src-bonsai-sdk-responses-createsessres.html"><abbr title="src/bonsai-sdk/Responses/CreateSessRes.php">CreateSessRes.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">40</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">A method to deserialize an object in JSON.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">from_json</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$json_string</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$json_string</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>The JSON string.</p>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">self</span>
-                    &mdash;
-                <section class="phpdocumentor-description"><p>The object.</p>
-</section>
-
-            </section>
-
 </article>
                     <article
         class="phpdocumentor-element
@@ -354,23 +287,23 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_jsonSerialize">
-        jsonSerialize()
-        <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method_jsonSerialize" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___toString">
+        __toString()
+        <a href="classes/L2Iterative-BonsaiSDK-Exception.html#method___toString" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/Responses/CreateSessRes.php"><a href="files/src-bonsai-sdk-responses-createsessres.html"><abbr title="src/bonsai-sdk/Responses/CreateSessRes.php">CreateSessRes.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/bonsai-sdk/Exception.php"><a href="files/src-bonsai-sdk-exception.html"><abbr title="src/bonsai-sdk/Exception.php">Exception.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">A method to indicate the serialization preference (object as an array).</p>
+        <p class="phpdocumentor-summary">The conversion method to be a string.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">jsonSerialize</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">__toString</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -380,9 +313,9 @@
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__response_type">string</span>
                     &mdash;
-                <section class="phpdocumentor-description"><p>The array structure of the object.</p>
+                <section class="phpdocumentor-description"><p>The displayed error message.</p>
 </section>
 
             </section>
@@ -394,7 +327,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/bonsai-sdk/Responses/CreateSessRes.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/bonsai-sdk/Exception.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -493,24 +426,23 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/L2Iterative-BonsaiSDK-Exception.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/L2Iterative-BonsaiSDK-Exception.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#property_uuid">$uuid<a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html"></li>
+                                                    <li><a href="classes/L2Iterative-BonsaiSDK-Exception.html#property_error_msg">$error_msg<a href="classes/L2Iterative-BonsaiSDK-Exception.html"></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li><a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method___construct">__construct()</a></li>
-                                            <li><a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method_from_json">from_json()</a></li>
-                                            <li><a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#method_jsonSerialize">jsonSerialize()</a></li>
+                                            <li><a href="classes/L2Iterative-BonsaiSDK-Exception.html#method___construct">__construct()</a></li>
+                                            <li><a href="classes/L2Iterative-BonsaiSDK-Exception.html#method___toString">__toString()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -530,7 +462,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/L2Iterative-BonsaiSDK-Responses-CreateSessRes.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/L2Iterative-BonsaiSDK-Exception.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
