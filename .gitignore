@@ -5,3 +5,5 @@ composer.lock
 package.xml
 .idea
 .phpunit.result.cache
+.phpdoc
+phpDocumentor.phar
