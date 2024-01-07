@@ -98,7 +98,88 @@ while(true) {
 
 ```
 
-## Future work
+## Serializer
 
-A strictly typed serializer would be useful for developers to assemble the inputs for RISC Zero Bonsai proof generation 
-without the necessity of going through FFI to let Rust serialize. This would be added in a future date.
+Another challenge when using a different programming language to interact with RISC Zero is about the types. 
+This issue is particularly significant to PHP because PHP does not have separate types for different word sizes.
+
+For example, in PHP, we have `int` representing integers, nothing else. But this can correspond to i8, i16, i32, i64, 
+u8, u16, u32, u64 in Rust. There are also numbers that PHP cannot easily represent, such as i128 and u128. 
+
+Since the Rust type is the missing information here, there is no choice other than letting the developer explicitly 
+provide the Rust type. To do so, the developer is asked to wrap all elements.
+
+Below is a very comprehensive example that can served as a tutorial. 
+
+```php
+public function test_serialization() {
+    $example = new Struct([
+        'u8v' => new SameTypeArray([
+            new U8(1), new U8(231), new U8(123)
+        ]),
+        'u16v' => new SameTypeArray([
+            new U16(124), new U16(41374)
+        ]),
+        'u32v' => new SameTypeArray([
+            new U32(14710471), new U32(3590275702), new U32(1), new U32(2)
+        ]),
+        'u64v' => new SameTypeArray([
+            new U64(352905235952532), new U64(2147102974910410)
+        ]),
+        'i8v' => new SameTypeArray([
+            new I8(-1), new I8(120), new I8(-22)
+        ]),
+        'i16v' => new SameTypeArray([
+            new I16(-7932)
+        ]),
+        'i32v' => new SameTypeArray([
+            new I32(-4327), new I32(35207277)
+        ]),
+        'i64v' => new SameTypeArray([
+            new I64(-1), new I64(1)
+        ]),
+        'u8s' => new U8(3),
+        'bs' => new Boolean(true),
+        'some_s' => new Some(new U16(5)),
+        'none_s' => new None(),
+        'strings' => new BinaryString("Here is a string."),
+        'stringv' => new SameTypeArray([
+            new BinaryString("string a"),
+            new BinaryString("34720471290497230")
+        ])
+    ]);
+
+    $serializer = new Serializer();
+    $serializer->serialize($example);
+
+    $php_output = $serializer->output();
+    $rust_output = [3, 1, 231, 123, 2, 124, 41374, 4, 14710471, 3590275702, 1, 2, 2, 658142100, 82167, 1578999754, 499911, 3, 4294967295, 120, 4294967274, 1, 4294959364, 2, 4294962969, 35207277, 2, 4294967295, 4294967295, 1, 0, 3, 1, 1, 5, 0, 17, 1701995848, 544434464, 1953701985, 1735289202, 46, 2, 8, 1769108595, 1629513582, 17, 842478643, 825701424, 875575602, 858928953, 48];
+
+    $this->assertEquals($php_output, $rust_output);
+}
+```
+
+The corresponding Rust struct is defined as follows.
+```rust
+#[derive(Default, Debug, Serialize)]
+pub struct SA {
+    pub u8v: Vec<u8>,
+    pub u16v: Vec<u16>,
+    pub u32v: Vec<u32>,
+    pub u64v: Vec<u64>,
+    pub i8v: Vec<i8>,
+    pub i16v: Vec<i16>,
+    pub i32v: Vec<i32>,
+    pub i64v: Vec<i64>,
+    pub u8s: u8,
+    pub bs: bool,
+    pub some_s: Option<u16>,
+    pub none_s: Option<u32>,
+    pub strings: String,
+    pub stringv: Vec<String>
+}
+```
+
+Note that we focus on String here in Rust rather than a binary string because the current serializer does have the trouble 
+to process `Vec<u8>` in a different manner. If one's Rust code has to use `Vec<u8>` and cannot afford a wrapper, then 
+the best solution so far is to let PHP break the string down to an array of bytes, through [`str_split($str)`](https://www.php.net/manual/en/function.str-split.php).
