@@ -1,4 +1,4 @@
-# PHP SDK for Bonsai API
+## PHP SDK for Bonsai API
 
 <img src="title.png" align="right" alt="a guy sitting on the subway station waiting for the train to arrive" width="300"/>
 
@@ -8,7 +8,7 @@ to generate the zero-knowledge proof, web3 applications built with Bonsai would 
 Like most web3 applications, the backend can be **_minimalistic_**, because most of the on-chain interactions can be completed 
 through, for example, [Metamask's Ethereum provider API](https://docs.metamask.io/wallet/reference/provider-api/), in the frontend.
 
-## How would the backend look like?
+### How would the backend look like?
 
 For the aforementioned reasons, backends often fall into the following six classes:
 - **Pure:**
@@ -47,7 +47,7 @@ exposed to the client. The backend may just consist of:
 - integration with a spam prevention system, such as [Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/) or [Google reCAPTCHA](https://www.google.com/recaptcha/about/)
 - connecting to RISC Zero Bonsai API, which is the purpose of this repository
 
-## How to use
+### How to use
 
 The documentation can be found in the [docs](docs) folder. It is designed to resemble the Bonsai Rust API here:
 
@@ -98,7 +98,7 @@ while(true) {
 
 ```
 
-## Serializer
+### Serializer
 
 Another challenge when using a different programming language to interact with RISC Zero is about the types. 
 This issue is particularly significant to PHP because PHP does not have separate types for different word sizes.
