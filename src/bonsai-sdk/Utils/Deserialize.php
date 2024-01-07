@@ -2,7 +2,9 @@
 
 namespace L2Iterative\BonsaiSDK\Utils;
 
-interface Deserialize extends \JsonSerializable
+use JsonSerializable;
+
+interface Deserialize extends JsonSerializable
 {
 
 

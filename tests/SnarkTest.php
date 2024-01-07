@@ -3,15 +3,16 @@ declare(strict_types=1);
 
 namespace L2Iterative\BonsaiSDK\Tests;
 
+require_once __DIR__ . '/Constants.php';
+
 use donatj\MockWebServer\MockWebServer;
 use donatj\MockWebServer\Response;
-use donatj\MockWebServer\ResponseByMethod;
 use L2Iterative\BonsaiSDK\Client;
 use L2Iterative\BonsaiSDK\Exception;
 use L2Iterative\BonsaiSDK\Responses\CreateSessRes;
-use L2Iterative\BonsaiSDK\Responses\SessionStatusRes;
 use L2Iterative\BonsaiSDK\Responses\SnarkStatusRes;
 use L2Iterative\BonsaiSDK\SnarkId;
+use L2Iterative\MockWebServerExt\ComplexResponse;
 use PHPUnit\Framework\TestCase;
 use Ramsey\Uuid\Uuid;
 
@@ -30,17 +31,22 @@ final class SnarkTest extends TestCase
         $request_uuid  = (string) Uuid::uuid4();
         $response_uuid = (string) Uuid::uuid4();
 
+        $response = new ComplexResponse();
+        $response
+            ->when_method_is('POST')
+            ->when_header_is("x-api-key", TEST_KEY)
+            ->when_header_is("x-risc0-version", TEST_VERSION)
+            ->when_header_is('content-type', 'application/json')
+            ->when_query_param_is('POST', 'session_id', $request_uuid)
+            ->then(new Response(
+                json_encode(new CreateSessRes($response_uuid)),
+                ['content-type' => 'application/json'],
+                200
+            ));
+
         $server->setResponseOfPath(
             '/snark/create',
-            new ResponseByMethod(
-                [
-                    ResponseByMethod::METHOD_POST => new Response(
-                        json_encode(new CreateSessRes($response_uuid)),
-                        ['content-type' => 'application/json'],
-                        200
-                    ),
-                ]
-            )
+            $response
         );
 
         $client = new Client("{$server->getServerRoot()}", TEST_KEY, TEST_VERSION);
@@ -60,17 +66,20 @@ final class SnarkTest extends TestCase
 
         $uuid = (string) Uuid::uuid4();
 
+        $response = new ComplexResponse();
+        $response
+            ->when_method_is("GET")
+            ->when_header_is("x-api-key", TEST_KEY)
+            ->when_header_is("x-risc0-version", TEST_VERSION)
+            ->then(new Response(
+                json_encode(new SnarkStatusRes('RUNNING', null, null)),
+                ['content-type' => 'application/json'],
+                200
+            ));
+
         $server->setResponseOfPath(
             "/snark/status/{$uuid}",
-            new ResponseByMethod(
-                [
-                    ResponseByMethod::METHOD_GET => new Response(
-                        json_encode(new SnarkStatusRes('RUNNING', null, null)),
-                        ['content-type' => 'application/json'],
-                        200
-                    ),
-                ]
-            )
+            $response
         );
 
         $client   = new Client("{$server->getServerRoot()}", TEST_KEY, TEST_VERSION);

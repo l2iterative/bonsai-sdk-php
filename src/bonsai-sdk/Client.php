@@ -292,7 +292,8 @@ class Client
                     $this->url,
                 ),
                 [
-                    'json' => [
+                    'headers' => ['content-type' => 'application/json'],
+                    'json'    => [
                         'img'         => $img_id,
                         'input'       => $input_id,
                         'assumptions' => $assumptions,
@@ -361,7 +362,8 @@ class Client
                     $this->url,
                 ),
                 [
-                    'json' => ['session_id' => $session_id],
+                    'headers' => ['content-type' => 'application/json'],
+                    'json'    => ['session_id' => $session_id],
                 ]
             );
 

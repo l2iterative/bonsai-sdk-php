@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace L2Iterative\BonsaiSDK\Tests;
 
+require_once __DIR__ . '/Constants.php';
+
 use L2Iterative\BonsaiSDK\Client;
 use PHPUnit\Framework\TestCase;
 

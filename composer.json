@@ -1,7 +1,7 @@
 {
   "name": "l2iterative/bonsai-sdk-php",
   "description": "Bonsai SDK in PHP",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "Apache-2.0",
   "require": {
     "guzzlehttp/guzzle": "^7.8",
@@ -27,7 +27,8 @@
     "phpunit/phpunit": "^8.5",
     "donatj/mock-webserver": "^2.7",
     "squizlabs/php_codesniffer": "*",
-    "ramsey/uuid": "^4.7"
+    "ramsey/uuid": "^4.7",
+    "l2iterative/mock-webserver-ext": "^1.1"
   },
   "scripts": {
     "phpcs": "vendor/bin/phpcs",
